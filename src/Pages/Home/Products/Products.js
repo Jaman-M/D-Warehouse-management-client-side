@@ -12,8 +12,8 @@ const Products = () => {
     },[])
 
     return (
-        <div >
-            <h2 className='text-primary text-center mt-5 mb-2'>Available products item : {products.length}</h2>
+        <div className=''  >
+            <h2 id='items' className='text-primary text-center mt-5 mb-2'>Available products item : {products.length}</h2>
             <div className='products-container container'>
             {
                 products.map(product => <Product
