@@ -13,7 +13,7 @@ const Products = () => {
 
     return (
         <div >
-            <h2 className='text-primary'>Available products item : {products.length}</h2>
+            <h2 className='text-primary text-center mt-5 mb-2'>Available products item : {products.length}</h2>
             <div className='products-container container'>
             {
                 products.map(product => <Product
