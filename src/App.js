@@ -2,6 +2,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Pages/About/About';
+import AddItem from './Pages/AddItem/AddItem';
 import Checkout from './Pages/Checkout/Checkout/Checkout';
 // import Checkout from './Pages/Checkout/Checkout/Checkout';
 
@@ -29,6 +30,11 @@ function App() {
         <Route path='/checkout' element={
           <RequireAuth>
             <Checkout></Checkout>
+          </RequireAuth>
+        }></Route>
+        <Route path='/additem' element={
+          <RequireAuth>
+            <AddItem></AddItem>
           </RequireAuth>
         }></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
