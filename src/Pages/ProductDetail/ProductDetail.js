@@ -6,7 +6,7 @@ const ProductDetail = () => {
     const [product, setProduct]= useState({});
 
     useEffect( () =>{
-        const url = `http://localhost:5000/item/${productId}`;
+        const url = `https://blooming-eyrie-87482.herokuapp.com/item/${productId}`;
 
         fetch(url)
         .then(res=> res.json())

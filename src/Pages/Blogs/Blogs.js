@@ -23,7 +23,7 @@ const Blogs = () => {
             SQL database are not suited for hierarchical data storage. but NoSQL databases are best suited for hierarchical data storage. <br />
             SQL is Vertically Scalable but NoSQL is Horizontally scalable
             </p>
-        </div>
+        </div> 
     );
 };
 
